@@ -1,1 +1,78 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }
+    
+    section {
+      margin: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+  
+  <section>
+    <h2>About</h2>
+    <p>This is a sample website created using HTML and CSS.</p>
+  </section>
+  
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li>Web Design</li>
+      <li>Graphic Design</li>
+      <li>Logo Design</li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Contact</h2>
+    <p>You can reach us at contact@example.com</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
